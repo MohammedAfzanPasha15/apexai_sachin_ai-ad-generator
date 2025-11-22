@@ -35,7 +35,7 @@ Built with modern web technologies and integrated AI capabilities, it simplifies
 
 ```bash
 # Clone the repository
-git clone https://github.com/MohammedAfzanPasha15/my-ai-ad-creator.git
+git clone https://github.com/MohammedAfzanPasha15/apexai_sachin_ai-ad-generator.git
 
 # Navigate into the folder
 cd my-ai-ad-creator
