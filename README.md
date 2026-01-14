@@ -41,6 +41,42 @@ Instead of manually brainstorming ads, slogans, or campaigns, **APEX AI** unders
 
 We utilize a multi-modal approach to transform a simple prompt into a full marketing suite.
 
+
+✨ Core CapabilitiesFeatureDescriptionImpact🧠 Creative EngineDeep understanding of product intent & nuance.Human-like creativity.⚡ Instant GenerationGenerates full campaigns in < 5 seconds.100x Speed boost.🎯 Audience LogicTailors tone specifically for target demographics.Higher conversion rates.🎨 Visual + TextMulti-modal output (Headlines, CTAs, Concepts).Ready-to-use assets.📉 Live AnalyticsDashboard with animated graphs and metric tracking.Data-driven decisions.🎞️ Visual Experience (The "Glassmorphism" UI)<div align="center"><img src="https://www.google.com/search?q=https://via.placeholder.com/800x400.png%3Ftext%3DPlace%2BAnimated%2BDashboard%2BGIF%2BHere" alt="Dashboard Demo" /><p><i>Top: Real-time generation. Bottom: Analytics dashboard with liquid motion effects.</i></p></div>🔹 Analytics & MotionThe dashboard features design-ready animated components:Performance Flow: Visualizing AI workload in real-time.Ad Distribution:TEXT ADS ████████████████████ 60%CREATIVE ██████████░░░░░░░░ 25%VISUALS  █████░░░░░░░░░░░░░ 15%🤖 AI Features Suite✍️ Smart CopywriterHeadlines: Punchy, high-CTR titles.Taglines: Memorable brand hooks.CTA Engine: Action-oriented buttons (e.g., "Shop Now," "Learn More").🎨 Creative DirectorAd Concepts: Describes the visual scene for designers.Branding: Color palette and typography suggestions.📊 Marketing StrategistAudience Hints: Who to target (Age, Interest, Location).Platform Tone: Adjusts copy for LinkedIn (Professional) vs. TikTok (Casual).🛠️ Tech StackThis project is built with a modern, scalable architecture.Frontend (The Face)Backend (The Brain)📂 Project StructureBashapexai_sachin_ai-ad-generator/
+├── 📂 backend/            # AI logic, API Endpoints, & LLM Chains
+├── 📂 frontend/           # React UI, Animations, & Components
+├── 📄 main.py             # Server Entry Point
+├── 📄 requirements.txt    # Python Dependencies
+├── 📂 assets/             # 3D Assets & Images
+└── 📄 README.md           # Documentation
+▶️ Installation & SetupGet APEX AI running on your local machine in minutes.1️⃣ Clone the RepositoryBashgit clone [https://github.com/MohammedAfzanPasha15/apexai_sachin_ai-ad-generator.git](https://github.com/MohammedAfzanPasha15/apexai_sachin_ai-ad-generator.git)
+cd apexai_sachin_ai-ad-generator
+2️⃣ Backend SetupBash# Create Virtual Environment
+python -m venv .venv
+
+# Activate (Windows)
+.venv\Scripts\activate
+
+# Install Dependencies
+pip install -r requirements.txt
+
+# Run Server
+python main.py
+3️⃣ Frontend SetupBashcd frontend
+npm install
+npm run dev
+🚀 Open your browser: http://localhost:5173🚀 Future Roadmap[ ] Multi-Language Support: Generate ads in Spanish, French, and Hindi.[ ] Direct Integration: Post directly to Instagram/Twitter APIs.[ ] Brand Memory: AI "remembers" your specific brand voice for future ads.[ ] A/B Testing Simulator: Predict which ad version will perform better.👨‍💻 Author<div align="center">Mohammed Afzan Pasha<i>AI • Generative AI • Full‑Stack Development</i><a href="https://www.google.com/search?q=https://github.com/MohammedAfzanPasha15"><img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-Profile-181717%3Fstyle%3Dfor-the-badge%26logo%3Dgithub" /></a><a href="https://linkedin.com"><img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-0A66C2%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin" /></a></div><div align="center"><sub>Built with ❤️ and ☕ by Afzan. © 2026 APEX AI.</sub></div>
+-----
+
+### 💡 How to make this README "3D & Animated"
+
+Since GitHub only displays images/text, here is how you make it look high-tech:
+
+1.  **The Header GIF:** Go to a site like **Spline.design** (free 3D design tool). Create a simple spinning 3D text that says "APEX" or a spinning cube. Export it as a GIF and put the link in the top `<img src>` tag.
+2.  **The "Glassmorphism" UI:** Take a screenshot of your website. Go to **Canva**, put that screenshot in a "Laptop" frame. Then, use a tool like **ScreenToGif** to record your screen while you click buttons on your website. Upload that GIF to the "Visual Experience" section.
+3.  **The Mermaid Chart:** The code included above (`graph TD...`) will automatically render as a diagram on GitHub. You don't need to do anything else\!
+
+
 ```mermaid
 graph TD;
     A[User Input] -->|Product & Goal| B(Prompt Engineering Layer);
@@ -56,56 +92,3 @@ graph TD;
     style H fill:#bbf,stroke:#333,stroke-width:4px,color:black
     style C fill:#ff9,stroke:#333,stroke-width:2px,color:black
 
-
-
-🛠️ Tech Stack & DependenciesComponentTechnologyRoleBackendPython 3.10+Core LanguageFastAPIHigh-speed Async API FrameworkUvicornASGI ServerPydanticData Validation & Schema enforcementFrontendReact.js (Vite)UI LibraryTailwind CSSStyling SystemFramer MotionAnimation LibraryLucide ReactIconographyAILangChainLLM Orchestration (Optional)OpenAI APIIntelligence Model🚀 Installation & SetupFollow these steps to deploy the local development environment.1️⃣ PrerequisitesPython 3.10 or higherNode.js 18+ and npmAn OpenAI API Key2️⃣ Clone the RepositoryBashgit clone [https://github.com/MohammedAfzanPasha15/apexai_sachin_ai-ad-generator.git](https://github.com/MohammedAfzanPasha15/apexai_sachin_ai-ad-generator.git)
-cd apexai_sachin_ai-ad-generator
-3️⃣ Backend ConfigurationNavigate to the backend folder and set up the Python environment.Bash# Enter backend directory (or root if main.py is in root)
-python -m venv .venv
-
-# Activate Virtual Environment
-# Windows:
-.venv\Scripts\activate
-# Mac/Linux:
-source .venv/bin/activate
-
-# Install Dependencies
-pip install -r requirements.txt
-🔑 Set up Environment Variables:Create a .env file in the root directory:Ini, TOMLOPENAI_API_KEY=sk-your-key-here-xxxxxxxxxxxx
-ALLOWED_ORIGINS=http://localhost:5173
-PORT=8000
-Run the Backend:Bashpython main.py
-# Server should start at http://localhost:8000
-4️⃣ Frontend ConfigurationOpen a new terminal for the React application.Bashcd frontend
-
-# Install Node modules
-npm install
-
-# Start Development Server
-npm run dev
-🚀 Access the App: Open http://localhost:5173 in your browser.🔌 API DocumentationIf you wish to integrate APEX AI into other apps, use these endpoints:<details><summary><b>🔵 POST /generate-ad</b> (Click to expand)</summary>Description: Generates full ad copy and strategy.Body:JSON{
-  "product_name": "EcoBottle",
-  "description": "A self-cleaning water bottle",
-  "target_audience": "Hikers",
-  "tone": "Adventurous"
-}
-Response:JSON{
-  "headline": "Pure Water, Anywhere.",
-  "body": "Meet the bottle that cleans itself...",
-  "keywords": ["#hiking", "#eco", "#tech"]
-}
-</details><details><summary><b>🔵 GET /health</b> (Click to expand)</summary>Description: Checks if the API and AI services are online.</details>📂 Directory StructureBashapexai/
-├── 📂 backend/
-│   ├── 📂 routers/         # API Route definitions
-│   ├── 📂 services/        # AI Logic & Prompt Templates
-│   ├── 📄 main.py          # App Entry point
-│   └── 📄 models.py        # Pydantic Schemas
-├── 📂 frontend/
-│   ├── 📂 src/
-│   │   ├── 📂 components/  # Reusable UI (Cards, Buttons)
-│   │   ├── 📂 pages/       # Dashboard, Generator Views
-│   │   └── 📂 assets/      # Images & Animations
-│   └── 📄 package.json
-├── 📄 .env.example         # Template for keys
-└── 📄 README.md            # You are here
-⚠️ TroubleshootingIssue: Module not found in PythonSolution: Ensure you activated the virtual environment (.venv\Scripts\activate) before running pip install.Issue: Frontend cannot connect to BackendSolution: Check CORS settings in main.py. Ensure the backend is running on port 8000 and frontend on 5173.Issue: OpenAI Rate Limit ErrorSolution: Check your OpenAI credit balance or add a payment method to your OpenAI account.👨‍💻 Author<div align="center"><img src="https://www.google.com/search?q=https://avatars.githubusercontent.com/u/108503673%3Fv%3D4" width="100px" style="border-radius:50%"/><b>Mohammed Afzan Pasha</b><i>AI Engineer • Full-Stack Developer • Innovator</i><div align="center"><sub>© 2026 APEX AI. Licensed under MIT. Made with ⚡ in India.</sub></div>
